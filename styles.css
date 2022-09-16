@@ -1,0 +1,271 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(17,17,17);
+    box-sizing: border-box;
+    font-size: large;
+    
+}
+h1,h2{
+    margin:0.5em 0;
+}
+h2{
+    text-decoration-line: underline;
+}
+.font{
+    color: #99aa83;
+}
+.font a{
+    color: #99aa83;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    padding: 0.5px;
+    background-color: #98bf64;
+}
+
+main{
+    padding:1em;
+    margin:0;
+}
+header, footer{
+    padding: 1em;
+    background: #98bf64;
+}
+footer ul{
+    background-color: #98bf64;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer li{
+    background-color: #98bf64;
+    padding: none;
+}
+footer p{
+    background-color: #98bf64;
+}
+footer a{
+    background-color: #98bf64;
+    text-decoration: none;
+    color:rgb(17,17,17);
+    line-height: 40px;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.mainNav{
+    flex: 1;
+    text-align: right;
+    font-size: larger;
+    background-color: #98bf64;
+}
+
+.mainNav ul{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #98bf64;
+    
+}
+.mainNav li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #98bf64;
+}
+.mainNav a{
+    text-decoration: none;
+    color: rgb(17,17,17);
+}
+
+.dropbtn, li a{
+    display:inline-block;
+    text-align: right;
+    text-decoration: none;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown .dropbtn{
+    border: none;
+    outline: none;
+    background-color:inherit;
+    font-family: inherit;
+    margin:0;
+}
+.content{
+    display: none;
+    position: absolute;
+    background-color: #98bf64;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.content a{
+    color: rgb(17,17,17);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.content a:hover{
+    background-color: #abb79b;
+} 
+.dropdown:hover .content{
+    display: block;
+}
+p{
+    color: rgb(17,17,17);
+}
+.Navtext{
+    padding:calc(100%-1rem);
+    position: absolute;
+}
+#mainImg{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin:0 auto;
+}
+img{
+    width:450px;
+    height:300px;
+}
+iframe{
+    padding-left: 50px;
+}
+#padding{
+    padding-left: 100px;
+}
+#sltb{
+    width: auto;
+    height: auto;
+}
+.buy{
+    width:450px;
+    height: auto;
+    background-color: #abb79b;
+}
+table,th,td{
+    border: 1px black solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#types td, #types th{
+    padding: 8px;
+}
+#types tr:nth-child(odd){
+    background-color: #abb79b;
+}
+#types th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+#footer{
+    background-color: #98bf64;
+}
+.logo{
+    background-color: #98bf64;
+}
+.logo img{
+    width: 145px;
+    height: 80px;
+    background-color: #98bf64;
+}
+.container{
+    margin: auto;
+}
+.column{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button{
+    flex-basis:30%;
+    min-width: 400px;
+    margin-bottom: 50px;
+}
+button{
+    width: 30%;
+    height: 30%;
+    border-radius: 4px;
+    padding: 20px 20px;    
+}
+.product-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-1{
+    flex-basis:30%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.item-1 p,h4{
+    padding-left: 20px;
+}
+.item-1 img{
+    width: 100%;
+}
+.product-container h2{
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width:350px) and (max-device-width:800px){
+.mainNav{
+    flex-basis: 100%;
+    text-align: justify;
+}
+.column{
+    flex-basis: 50%;
+}
+
+img{
+    width:100%;
+}
+.buy{
+    width:100%;
+}
+iframe{
+    width: 100%;
+    padding-left: 0;
+}
+#padding{
+    padding-left: 0;
+}
+.button{
+    padding-left: 50px;
+}
+.button button{
+    width:90%;
+    padding: 20px 20px;
+}
+.column{
+    align-items: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
